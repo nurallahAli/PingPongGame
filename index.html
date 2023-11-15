@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game | Korsat X Parmaga</title>
+</head>
+<style>
+    .game-container {
+        border: 3px solid #59CB8F;
+        margin: auto;
+        width: fit-content;
+    }
+
+    #pause {
+        cursor: pointer;
+        border: 3px solid #59CE8F;
+        color: #59CB8F;
+        border-radius: 10px;
+        width: fit-content;
+        margin: auto;
+        padding: 15px;
+        margin-top: 15px;
+        font-size: 30px;
+        transform: all .2s ease;
+    }
+
+    #pause:hover {
+        color: #fff;
+        background-color: #59CE8F;
+    }
+</style>
+
+<body>
+    <div class="game-container">
+        <canvas id="pong" width="600" height="400"></canvas>
+    </div>
+    <div id="pause">Paused</div>
+
+    <!-- JavaScript  -->
+    <script src="pong.js"></script>
+</body>
+
+</html>
